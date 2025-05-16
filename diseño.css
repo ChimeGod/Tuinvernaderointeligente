@@ -1,0 +1,119 @@
+.footer{
+    display: grid;
+    min-height: 10dvh;
+    grid-template-rows:
+    auto 1fr auto;
+    background-color: rgb(20, 189, 4);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.header-column{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 120px;
+    margin: auto;
+    list-style: none;
+}
+.content{
+    min-height: 100px;
+    min-width: max-content;
+    object-fit: cover;
+    list-style-type: none;
+    background-image: url("https://www.valledelcabriel.com/wp-content/uploads/2017/07/1-1-830x321-1.jpg" )  ;
+    background-repeat: no-repeat;
+    min-width: max-content;
+    background-size: cover;
+    
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.logo{
+    font-size: 36px;
+    color: rgb(5, 104, 18);
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    float: left;
+    list-style: none;
+    font-family: Arial, sans-serif; /* Fuentes legibles */
+   
+
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(8, 30, 230);
+    display: block;
+    font-weight: bold;
+}
+.menu .navbar ul li a:hover{
+    color: aliceblue;
+}
+.menu .navbar ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex; /* Alinea los <li> en fila */
+}
+
+
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 20px;
+}
+.introducccion{
+    font-family: Arial, sans-serif; /* Fuentes legibles */
+    font-size: 16px; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    text-align: justify; /* Justificar el texto */
+    max-width: 1300px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 20px; /* Añadir relleno al contenedor */
+}
+.titulos{
+    color: blue;
+    text-align: center;
+    font-size: xx-large;
+}
+.cuerpo{
+    font-family: Arial, sans-serif; /* Fuentes legibles */
+    font-size: 16px; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    text-align: justify; /* Justificar el texto */
+    max-width: 1300px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 20px; /* Añadir relleno al contenedor */
+}
+.nuestro{
+    font-family: Arial, sans-serif; /* Fuentes legibles */
+    font-size: 16px; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    text-align: justify; /* Justificar el texto */
+    max-width: 1300px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 20px; /* Añadir relleno al contenedor */
+
+}
+.mg{
+    text-align: center;
+}

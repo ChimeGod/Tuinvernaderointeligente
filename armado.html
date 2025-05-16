@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="WhatsApp_Image_2025-04-30_at_9.25.09_AM-removebg-preview.png">
+    <link rel="stylesheet" href="prueba.css">
+    <title>Invernadero</title>
+</head>
+<body>
+    <header>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+    </header>
+    <nav class="nav" id="navMenu">
+        <ul class="list">
+            <li class="list_item">
+                <div class="list_botton">
+                    <img src="img/panel.svg" class="list_img">
+                    <a href="Inicio.html" class="nav_link">Inicio</a>
+                </div>
+            </li>
+            <li class="list_item list_item--click">
+                <div class="list_botton list_botton--click">
+                    <img src="img/heramienta.svg" class="list_img">
+                    <a href="#" class="nav_link">Construcción</a>
+                    <img src="img/arrow.svg" class="list_arrow">
+                </div>
+                <ul class="list_show">
+                    <li class="list_inside">
+                        <a href="pieza.html" class="nav_link nav_link--inside">Piezas</a>
+                    </li>
+                    <li class="list_inside">
+                        <a href="armado.html" class="nav_link nav_link--inside">Armado del equipo</a>
+                    </li> 
+                </ul>
+            </li>
+            <li class="list_item">
+                <div class="list_botton">
+                    <img src="img/grupo.svg" class="list_img">
+                    <a href="grupo.html" class="nav_link">Grupo</a>
+                </div>
+            </li>
+            <li class="list_item list_item--click">
+                <div class="list_botton list_botton--click">
+                    <img src="img/cubo.svg" class="list_img">
+                    <a href="#" class="nav_link">Uso</a>
+                    <img src="img/arrow.svg" class="list_arrow">
+                </div>
+                <ul class="list_show">
+                    <li class="list_inside">
+                        <a href="uso.html" class="nav_link nav_link--inside">Instrucciones de uso</a>
+                    </li>
+                    <li class="list_inside">
+                        <a href="apk.html" class="nav_link nav_link--inside">Apk de descarga</a>
+                    </li> 
+                </ul>
+            </li>
+            <li class="list_item">
+                <div class="list_botton">
+                    <img src="img/msg.svg" class="list_img">
+                    <a href="contacto.html" class="nav_link">Contacto</a>
+                </div>
+            </li>
+        </ul> 
+    </nav>
+ <div class="perr">
+
+       </div>
+    <div class="main-content">
+      <!-- Aquí va todo tu contenido fuera del menú -->
+       <div class="mg">
+        <img src="WhatsApp_Image_2025-04-30_at_9.25.09_AM-removebg-preview.png"  width="500" height="400" alt="">
+       </div>
+      <div class="introducccion">
+        <h2 class="titulos">Introduccion</h2>
+        <p>
+            El armado del sistema comienza con la preparación de la fuente de energía. Se utiliza una fuente principal de 12V, que puede provenir de un panel solar o un adaptador de corriente. Esta tensión se dirige inicialmente a un convertidor de voltaje tipo step-down, el cual se encarga de reducir los 12V a 5.8V. Este valor es adecuado para alimentar el módulo de carga de la batería, garantizando que el proceso de carga sea seguro y eficiente. La batería utilizada puede ser de tipo Li-ion o litio recargable, dependiendo de la capacidad requerida para el sistema.
+        </p>
+        <div class="mg">
+            <img src="fotos/WhatsApp Image 2025-05-12 at 10.17.16 AM (1).jpeg" width="400" height="300" alt="">
+        </div>
+        <p>Una vez cargada la batería, se extrae energía de ella para alimentar una segunda línea que trabaja a 5V. Esta segunda línea es la que se encarga de suministrar energía a todos los componentes del sistema, tales como los sensores, actuadores y el microcontrolador principal, que en este caso es un Arduino Mega. Para garantizar una tensión estable, se puede usar un segundo convertidor DC-DC para ajustar precisamente a 5V si fuera necesario. Toda esta distribución de energía se puede organizar mediante una regleta o placa de distribución que ramifica los 5V hacia cada componente.</p>
+<p>
+    <div class="mg">
+<img src="fotos/WhatsApp Image 2025-05-12 at 10.17.16 AM (2).jpeg" width="400" height="300" alt="">
+    </div>
+    El Arduino Mega es el cerebro del sistema. Desde él se leen todos los sensores conectados, como sensores de temperatura, humedad, nivel de agua, entre otros. Cada sensor se conecta a pines analógicos o digitales del Arduino, según el tipo de señal que maneje. El Arduino también se encarga de enviar señales de control a los actuadores, como el ventilador, la bomba de agua o el sistema de movimiento del panel solar.
+</p>
+ <div class="mg">
+         <img src="fotos/WhatsApp Image 2025-05-12 at 10.17.16 AM (3).jpeg" width="400" height="300" alt="">
+        </div>
+<p>En conjunto, el sistema permite una distribución de energía eficiente, una gestión inteligente mediante el Arduino Mega, y un control automatizado de los componentes esenciales, logrando así un sistema autónomo y funcional para entornos donde se requiere monitoreo y accionamiento automático, como en proyectos de agricultura, automatización ambiental o energía solar.</p>
+        <div class="mg">
+         
+        </div>
+      </div>
+      
+    <script src="prueba.js"></script>
+</body>
+</html>
